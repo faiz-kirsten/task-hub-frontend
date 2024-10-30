@@ -119,7 +119,7 @@ const EditJob = () => {
         <div className="edit-form">
             <h1 className="edit-form-heading">
                 <BackButton />
-                Edit Job
+                Edit Task
             </h1>
 
             {loading ? <Loading /> : ""}

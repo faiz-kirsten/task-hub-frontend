@@ -81,7 +81,7 @@ const CreateJob = () => {
         <div className="create-form">
             <h1 className="create-form-heading">
                 <BackButton />
-                Create Job
+                Create A Task
             </h1>
             {loading ? <Loading /> : ""}
             <div className="form-controllers">

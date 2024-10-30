@@ -233,19 +233,19 @@ const Home = () => {
                 <div className="legend-items">
                     <div className="legend-item">
                         <MdAddCircle />
-                        <span>Create A Job</span>
+                        <span>Create A Task</span>
                     </div>
                     <div className="legend-item">
                         <MdEdit />
-                        <span>Edit A Job</span>
+                        <span>Edit A Task</span>
                     </div>
                     <div className="legend-item">
                         <RiInboxArchiveFill />
-                        <span>Archive A Job</span>
+                        <span>Archive A Task</span>
                     </div>
                     <div className="legend-item">
                         <RiInboxUnarchiveFill />
-                        <span>Unarchive A Job</span>
+                        <span>Unarchive A Task</span>
                     </div>
                     <div className="legend-item">
                         <input type="checkbox" />
@@ -262,8 +262,8 @@ const Home = () => {
                         setDisplayArchived((prevState) => !prevState)
                     }>
                     {displayArchived
-                        ? "Hide Archived Jobs"
-                        : "Show Archived Jobs"}
+                        ? "Hide Archived Tasks"
+                        : "Show Archived Tasks"}
                 </button>
             </div>
 
@@ -344,7 +344,7 @@ const Home = () => {
                     </div>
                 </>
             )}
-            <h1>Job Listings</h1>
+            <h1>Tasks</h1>
             <div className="jobs-container">
                 {loading ? (
                     <Loading />
